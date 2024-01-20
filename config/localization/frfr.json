@@ -34,15 +34,15 @@
 			},
 			"infrastructure":  {
 				"title:": "Infrastructure",
-				"contextText": "Maintien en condition opérationnelle d'infrastructure et projet interne"
+				"contextText": "Maintien en condition opérationnelle d'infrastructure et projets internes."
 			}
 		}
 	},
 	"aboutMePage": {
 		"title": "WHOAMI",
-		"paragraph_one": "Elève en 5ème année à ISEN Lille, je suis actuellement en contrat de professionnalisation à Orange Cyberdefense en tant qu'ingénieur CSIRT.",
-		"paragraph_two": "Ingénieur en cybersécurité expérimenté, je suis passionné par la protection des données et la sécurité informatique. Avec de l'expérience dans l'industrie, je suis spécialisé dans la mise en place de systèmes de sécurité solides pour les entreprises de toutes tailles. Je suis également compétent en matière de tests de pénétration, de conformité réglementaire et de gestion des incidents de sécurité. Mon objectif est de fournir des solutions de sécurité avancées pour aider à protéger les actifs numériques.",
-		"paragraph_three": "En tant que self-hosteur, je crois fermement que chacun devrait avoir le contrôle total sur ses données et ses services en ligne. C'est pourquoi je me suis spécialisé dans l'hébergement de mes propres sites web, applications et services, pour éviter la dépendance aux grands fournisseurs de services en ligne. J'aime partager mes connaissances et expériences avec les autres pour les aider à comprendre les avantages du self-hébergement et à se lancer dans l'aventure. Mon objectif est de faciliter l'accès à l'autonomie en matière de technologies numériques pour tous.",
+		"paragraph_one": "Ancien étudiant EFREI Paris, je suis actuellement en CDI en tant qu'ingénieur SOC/CERT chez Almond.",
+		"paragraph_two": "Lors de mon stage de fin d'études, j'ai travaillé sur la notion de Deceptive defence: création de leurres de detection dans un périmètre informatique. Dans le même temps, je développais mes compétences d'analyste SOC.",
+		"paragraph_three": "Je suis passionné par l'espace et les notions de cybersécurité qui sont liées à ce milieu. De plus sur mon temps libre, je m'exerce à l'OSINT ainsi que le Pentest. Mon objectif est de réussir à developper les notions de cybersécurité dans ce milieu qui passent parfois au second plan.",
 		"github_card": {
 			"followers": "followers",
 			"following": "following",
@@ -59,8 +59,8 @@
 		"title": "EXPERIENCES",
 		"timeline": {
 			"template":{
-				"labelPosition": "Poste",
-				"labelTitle": "Equipe",
+				"labelPosition": "Position",
+				"labelTitle": "Intitulé",
 				"labelCompany": "Entreprise",
 				"labelCategory": "Catégorie",
 				"labelInstitution": "Institution",
@@ -71,8 +71,8 @@
 			},
 			"jobs":{
 				"study1":{
-					"labelPosition": "Etudiant",
-					"labelTitle": "",
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
 					"labelCompany": "Lycée Alain René Lesage",
 					"labelCategory": "Classes préparatoires",
 					"labelInstitution": "",
@@ -82,8 +82,8 @@
 					"labelYear":"2018-2020"
 				},
 				"study2":{
-					"labelPosition": "Etudiant",
-					"labelTitle": "",
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
 					"labelCompany": "EFREI Paris",
 					"labelCategory": "Ecole d'ingénieur",
 					"labelInstitution": "",
@@ -94,7 +94,7 @@
 				},
 				"job1":{
 					"labelPosition": "Stagiaire",
-					"labelTitle": "",
+					"labelTitle": "Intitulé",
 					"labelCompany": "Castelis",
 					"labelCategory": "SOC & Managed Services",
 					"labelInstitution": "",
@@ -104,8 +104,8 @@
 					"labelYear":"2021-2022"
 				},
 				"job2":{
-					"labelPosition": "Analyste SOC/CERT",
-					"labelTitle": "Equipe CWatch",
+					"labelPosition": "Equipe CWatch",
+					"labelTitle": "Analyste SOC/CERT",
 					"labelCompany": "Almond",
 					"labelCategory": "SOC/CERT",
 					"labelInstitution": "",
