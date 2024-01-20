@@ -321,7 +321,7 @@ export default function AProposDeMoi(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV href="https://elliptic-explorer.0xtter.com/CV_ThomasDesrumeaux.pdf" target="_blank" data-splitbee-event="Download CV">
+								<ButtonCV onClick="alert('Not Available Yet')" target="_blank" data-splitbee-event="Download CV">
 									Download CV
 								</ButtonCV>
 							</div>

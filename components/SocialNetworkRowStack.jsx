@@ -63,20 +63,16 @@ export default function SocialNetworkRowStack() {
 	return (
 		<SocialMediaContainer>
 
-			<ButtonSocialMediaIcon href="https://github.com/0xtter" target="_blank">
+			<ButtonSocialMediaIcon href="https://github.com/BloodEvolution" target="_blank">
 				<Github />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="mailto:contact.0xtter@gmail.com" target="_blank">
+			<ButtonSocialMediaIcon href="mailto:contact@emorin.fr" target="_blank">
 				<MailSend />
 			</ButtonSocialMediaIcon>
 
-			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/thomasdesrumeaux/	" target="_blank" data-splitbee-event="linkedin-access">
+			<ButtonSocialMediaIcon href="https://www.linkedin.com/in/enzomorin/	" target="_blank" data-splitbee-event="linkedin-access">
 				<LinkedinSquare />
-			</ButtonSocialMediaIcon>
-
-			<ButtonSocialMediaIcon href="https://twitter.com/_ThomasDx_" target="_blank">
-				<Twitter />
 			</ButtonSocialMediaIcon>
 
 		</SocialMediaContainer>

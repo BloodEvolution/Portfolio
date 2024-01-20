@@ -9,28 +9,32 @@
 	},
 	"landingPage": {
 		"apresentationText": "Hello World,",
-		"typeText": "Thomas Desrumeaux",
-		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je m’oriente dans les métiers de la cybersécurité. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
+		"typeText": "Enzo Morin",
+		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je travaille actuellement dans la cybersécurité en tant qu'analyste SOC/CERT. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
 		"buttonText": "A propos de moi"
 	},
 	"servicesOffer": {
 		"title": "Mes domaines",
 		"cards": {
 			"forensique": {
-				"title": "Forensique",
-				"contentText": "Solide connaissances des principes de base de la forensique informatique, y compris les méthodes d'acquisition de données, d'analyse des données et de présentation des preuves."
+				"title": "SOC",
+				"contentText": "Travail dans un SOC Tierless, traitant les incident de bout en bout, de la création de l'incident à la réponse et l'accompagnement avec le client."
 			},
 			"devsecops": {
-				"title": "DevSecOps",
+				"title": "Deceptive Defence",
 				"contentText": "Forte compréhension du développement, de la sécurité informatique et de la conformité réglementaire. Compétent en CI/CD, sécurité réseau, tests d'intrusion."
 			},
 			"pentesting": {
 				"title": "Pentesting",
-				"contentText": "Test d'intrusion et vulnérabilités courantes. Reconnaissance, exploitation, post-exploitation et reporting. Indentification et correction des vulnérabilités pour assurer la sécurité des systèmes et des réseaux."
+				"contentText": "Test d'intrusion et vulnérabilités courantes sur des plateformes telles que HTB ou RootMe. Reconnaissance, exploitation, post-exploitation et reporting. Indentification et correction des vulnérabilités pour assurer la sécurité des systèmes et des réseaux."
 			},
 			"developpement": {
 				"title": "Développement",
-				"contentText": "Expertise en Java, Python, C++, JavaScript, Bash, Docker et autres. Utilisation avancée de Github pour la gestion de versions et la collaboration sur des projets personnels et professionnels. "
+				"contentText": "Expertise en Python, Bash, Docker et autres. Utilisation avancée de Github pour la gestion de versions et la collaboration sur des projets personnels et professionnels. "
+			},
+			"infrastructure":  {
+				"title:": "Infrastructure",
+				"contextText": "Maintien en condition opérationnelle d'infrastructure et projet interne"
 			}
 		}
 	},
@@ -44,7 +48,7 @@
 			"following": "following",
 			"repos": "repos"
 		},
-		"alt_dev_img": "Thomas Desrumeaux"
+		"alt_dev_img": "Enzo Morin"
 	},
 	"portifolioPage": {
 		"title": "PROJETS",

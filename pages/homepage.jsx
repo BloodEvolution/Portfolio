@@ -162,15 +162,15 @@ export default function HomePage() {
 			<FloatNavigationBar />
 			<ProgressBar color={theme.colors.branding} height={5} />
 			<Head
-				title="Thomas Desrumeaux | Portfolio"
-				metaDescription="Portfolio de Thomas Desrumeaux, projets et compétences"
-				keywords="Thomas Desrumeaux, Cybersécurité, Programmation, CSIRT, Pentesting"
+				title="Enzo 'BloodEvo' Morin | Portfolio"
+				metaDescription="Portfolio de Enzo Morin, projets et compétences"
+				keywords="Enzo Morin, Cybersécurité, Programmation, CSIRT, Pentesting, SOC, CERT"
 			/>
 			<LandingPageContainer>
 
 				<TitleLandingContainer>
 					<SubTitleLanding>{language.landingPage.apresentationText}</SubTitleLanding>
-					<Typed strings={["Thomas Desrumeaux"]} typeSpeed={80} className="type-string " />
+					<Typed strings={["Enzo Morin"]} typeSpeed={80} className="type-string " />
 					<SubTitleLanding>{language.landingPage.resumeText}</SubTitleLanding>
 					<a href="#section-a-propos" onClick={scrollToSection}>
 						<ButtonSaibaMais>{language.landingPage.buttonText}</ButtonSaibaMais>
