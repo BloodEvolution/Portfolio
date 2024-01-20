@@ -59,8 +59,8 @@
 		"title": "EXPERIENCES",
 		"timeline": {
 			"template":{
-				"labelPosition": "Position",
-				"labelTitle": "Intitulé",
+				"labelPosition": "Poste",
+				"labelTitle": "Equipe",
 				"labelCompany": "Entreprise",
 				"labelCategory": "Catégorie",
 				"labelInstitution": "Institution",
@@ -71,8 +71,8 @@
 			},
 			"jobs":{
 				"study1":{
-					"labelPosition": "",
-					"labelTitle": "Etudiant",
+					"labelPosition": "Etudiant",
+					"labelTitle": "",
 					"labelCompany": "Lycée Alain René Lesage",
 					"labelCategory": "Classes préparatoires",
 					"labelInstitution": "",
@@ -82,8 +82,8 @@
 					"labelYear":"2018-2020"
 				},
 				"study2":{
-					"labelPosition": "",
-					"labelTitle": "Etudiant",
+					"labelPosition": "Etudiant",
+					"labelTitle": "",
 					"labelCompany": "EFREI Paris",
 					"labelCategory": "Ecole d'ingénieur",
 					"labelInstitution": "",
@@ -94,7 +94,7 @@
 				},
 				"job1":{
 					"labelPosition": "Stagiaire",
-					"labelTitle": "Intitulé",
+					"labelTitle": "",
 					"labelCompany": "Castelis",
 					"labelCategory": "SOC & Managed Services",
 					"labelInstitution": "",
@@ -104,8 +104,8 @@
 					"labelYear":"2021-2022"
 				},
 				"job2":{
-					"labelPosition": "Equipe CWatch",
-					"labelTitle": "Analyste SOC/CERT",
+					"labelPosition": "Analyste SOC/CERT",
+					"labelTitle": "Equipe CWatch",
 					"labelCompany": "Almond",
 					"labelCategory": "SOC/CERT",
 					"labelInstitution": "",
