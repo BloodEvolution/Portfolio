@@ -43,7 +43,7 @@ export default function Experiencia() {
 			{jobsValue.map((jobseval, indexjobs) => (
 				<ul key={indexjobs}>
 					{ templateValues.map((templateValue, indexValue) => (jobseval[templateKeys[indexValue]].length != 0 && <>
-						<li style="line-height: 1.8;">
+						<li style={{color: `${theme.colors.branding}`}}>
 							<span style={{ color: `${theme.colors.branding}` }}>{templateValue}: </span><span style={{ color: `${theme.colors.title}` }}>{jobseval[templateKeys[indexValue]]}</span>
 						</li></>
 					))}
