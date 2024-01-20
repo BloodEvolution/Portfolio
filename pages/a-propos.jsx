@@ -269,7 +269,7 @@ export default function AProposDeMoi(props) {
 
 	useEffect(() => {
 		async function fetchGithubStats() {
-			const response = await fetch("https://api.github.com/users/0xtter");
+			const response = await fetch("https://api.github.com/users/BloodEvolution");
 			const json = await response.json();
 			setGithubUserData(json);
 		}

@@ -9,7 +9,7 @@
 	},
 	"landingPage": {
 		"apresentationText": "Hello World,",
-		"typeText": "Enzo Morin",
+		"typeText": "Enzo 'BloodEvo' Morin",
 		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je travaille actuellement dans la cybersécurité en tant qu'analyste SOC/CERT. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
 		"buttonText": "A propos de moi"
 	},
@@ -22,7 +22,7 @@
 			},
 			"devsecops": {
 				"title": "Deceptive Defence",
-				"contentText": "Forte compréhension du développement, de la sécurité informatique et de la conformité réglementaire. Compétent en CI/CD, sécurité réseau, tests d'intrusion."
+				"contentText": "Conceptualisation et mise en place de systèmes de leurres dans un système d'information (étude de marché, developpement de solution, documentation, maintien des solutions)"
 			},
 			"pentesting": {
 				"title": "Pentesting",
@@ -58,14 +58,64 @@
 	"experiencePage": {
 		"title": "EXPERIENCES",
 		"timeline": {
-			"labelPosition": "Position",
-			"labelTitle": "Intitulé",
-			"labelCompany": "Entreprise",
-			"labelCategory": "Catégorie",
-			"labelInstitution": "Institution",
-			"labelProfessionalCourse": "Cours professionnels",
-			"labelBachelorDegree": "Baccalauréat",
-			"labelExtensionCourse": "Cours d'extension"
+			"template":{
+				"labelPosition": "Position",
+				"labelTitle": "Intitulé",
+				"labelCompany": "Entreprise",
+				"labelCategory": "Catégorie",
+				"labelInstitution": "Institution",
+				"labelProfessionalCourse": "Status",
+				"labelBachelorDegree": "Baccalauréat",
+				"labelExtensionCourse": "Autre",
+				"labelYear":"Années"
+			},
+			"jobs":{
+				"study1":{
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
+					"labelCompany": "Lycée Alain René Lesage",
+					"labelCategory": "Classes préparatoires",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +2",
+					"labelExtensionCourse": "",
+					"labelYear":"2018-2020"
+				},
+				"study2":{
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
+					"labelCompany": "EFREI Paris",
+					"labelCategory": "Ecole d'ingénieur",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac + 5",
+					"labelExtensionCourse": "",
+					"labelYear":"2020-2023"
+				},
+				"job1":{
+					"labelPosition": "Stagiaire",
+					"labelTitle": "Intitulé",
+					"labelCompany": "Castelis",
+					"labelCategory": "SOC & Managed Services",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Stage M1",
+					"labelExtensionCourse": "",
+					"labelYear":"2021-2022"
+				},
+				"job2":{
+					"labelPosition": "Equipe CWatch",
+					"labelTitle": "Analyste SOC/CERT",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear":"2023-"
+				}
+			}
+			
 		}
 	},
 	"footer": {

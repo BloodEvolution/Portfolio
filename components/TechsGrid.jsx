@@ -97,20 +97,9 @@ export default function TechsGrid(props) {
 			</ScrollAnimation>	
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
-					<Nextcloud />
-				</Tech>
-			</ScrollAnimation>	
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
 					<Nginx />
 				</Tech>
 			</ScrollAnimation>	
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Amazonaws />
-				</Tech>
-			</ScrollAnimation>	
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Visualstudiocode />
@@ -140,13 +129,6 @@ export default function TechsGrid(props) {
 					<Javascript />
 				</Tech>
 			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Java />
-				</Tech>
-			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Python />
@@ -170,12 +152,6 @@ export default function TechsGrid(props) {
 					<Git />
 				</Tech>
 			</ScrollAnimation>
-
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Oracle />
-				</Tech>
-			</ScrollAnimation>
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Mysql />
@@ -191,22 +167,6 @@ export default function TechsGrid(props) {
 					<Windows />
 				</Tech>
 			</ScrollAnimation>
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Android />
-				</Tech>
-			</ScrollAnimation>
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Ios />
-				</Tech>
-			</ScrollAnimation>
-			<ScrollAnimation animateIn="fadeIn" animateOnce>
-				<Tech>
-					<Figma />
-				</Tech>
-			</ScrollAnimation>
-
 			<ScrollAnimation animateIn="fadeIn" animateOnce>
 				<Tech>
 					<Adobephotoshop />

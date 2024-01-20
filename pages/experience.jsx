@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { useState } from 'react';
 import styled from "styled-components";
 
 //Custom components
@@ -23,14 +24,32 @@ const SectionExperiencia = styled.section`
 
 export default function Experiencia() {
 	const { language } = useContext(SettingsContext);
-
+	const template = language.experiencePage.timeline.template
+	const jobs=language.experiencePage.timeline.jobs
+	
+	//const templateArray = JSON.parse(template[1])
+	const templateKeys = Object.keys(template)
+	const templateValues = Object.values(template)
+	const jobsValue = Object.values(jobs)
+	//console.log(jobsValue)
 	const theme = useTheme();
+	const [task, setTask] = useState('');
+	const [tasksArray, setTasksArray] = useState([]);
 	return (
 		<SectionExperiencia id="section-experiencia">
 			<ContainerTitleSection>
 				<TitleSection>{language.experiencePage.title}</TitleSection>
 			</ContainerTitleSection>
-			<h2 style={{ color: `${theme.colors.branding}` }}>Coming Soon...</h2>
+			{jobsValue.map((jobseval, indexjobs) => (
+				<ul key={indexjobs}>
+					{templateValues.map((templateValue, indexValue) => (
+						<li>
+							<span style={{ color: `${theme.colors.branding}` }}>{templateValue}</span>: {jobseval[templateKeys[indexValue]]}
+						</li>	
+					))}
+					<br></br>
+				</ul>
+			))}
 			{/* <TimelineExperienciaFormacao /> */}
 		</SectionExperiencia >
 	);
