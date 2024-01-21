@@ -93,8 +93,8 @@
 					"labelYear":"2020-2023"
 				},
 				"job1":{
-					"labelPosition": "Trainee",
-					"labelTitle": "",
+					"labelPosition": "",
+					"labelTitle": "Trainee",
 					"labelCompany": "Castelis",
 					"labelCategory": "SOC & Managed Services",
 					"labelInstitution": "",
