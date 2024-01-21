@@ -1,48 +1,48 @@
 {
 	"id": "frfr",
 	"navbarMenu": {
-		"labelHome": "MENU PRINCIPAL",
-		"labelServices": "MES DOMAINES",
+		"labelHome": "Home",
+		"labelServices": "My topics",
 		"labelAboutMe": "WHOAMI",
-		"labelPortifolio": "PROJETS",
+		"labelPortifolio": "PROJETCS",
 		"labelExperience": "EXPERIENCES"
 	},
 	"landingPage": {
 		"apresentationText": "Hello World,",
 		"typeText": "Enzo 'BloodEvo' Morin",
-		"resumeText": "Fasciné par l’informatique et par ses enjeux sécuritaires, je travaille actuellement dans la cybersécurité en tant qu'analyste SOC/CERT. Créatif et persévérant, j’aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
-		"buttonText": "A propos de moi"
+		"resumeText": "Fascinated by IT and its security issues, I currently work in cybersecurity as an analyst SOC/CERT.Creative and persevering, I like to take up team challenges to meet the current challenges in terms of computer security.",
+		"buttonText": "About me"
 	},
 	"servicesOffer": {
-		"title": "Mes domaines",
+		"title": "My topics",
 		"cards": {
 			"forensique": {
 				"title": "SOC",
-				"contentText": "Travail dans un SOC Tierless, traitant les incident de bout en bout, de la création de l'incident à la réponse et l'accompagnement avec le client."
+				"contentText": "Work in a Tierless Soc, treating the incidents from start to finish, from the creation of the incident to the response and support with the customer."
 			},
 			"devsecops": {
 				"title": "Deceptive Defence",
-				"contentText": "Conceptualisation et mise en place de systèmes de leurres dans un système d'information (étude de marché, developpement de solution, documentation, maintien des solutions)"
+				"contentText": "Conceptualization and implementation of lure systems in an information system (market study, solution development, documentation, maintenance of solutions)"
 			},
 			"pentesting": {
 				"title": "Pentesting",
-				"contentText": "Test d'intrusion et vulnérabilités courantes sur des plateformes telles que HTB ou RootMe. Reconnaissance, exploitation, post-exploitation et reporting. Indentification et correction des vulnérabilités pour assurer la sécurité des systèmes et des réseaux."
+				"contentText": "Tis of intrusion and common vulnerabilities on platforms such as HTB or Rootme.Recognition, exploitation, post-exploitation and reporting. Indentification and correction of vulnerabilities to ensure the safety of systems and networks."
 			},
 			"developpement": {
-				"title": "Développement",
-				"contentText": "Expertise en Python, Bash, Docker et autres. Utilisation avancée de Github pour la gestion de versions et la collaboration sur des projets personnels et professionnels. "
+				"title": "Development",
+				"contentText": "Expertise in Python, Bash, Docker and others.Advanced use of Github for versions management and collaboration on personal and professional projects."
 			},
 			"infrastructure":  {
 				"title:": "Infrastructure",
-				"contextText": "Maintien en condition opérationnelle d'infrastructure et projets internes."
+				"contextText": "Maintain in operational condition of infrastructure and internal projects."
 			}
 		}
 	},
 	"aboutMePage": {
 		"title": "WHOAMI",
-		"paragraph_one": "Ancien étudiant EFREI Paris, je suis actuellement en CDI en tant qu'ingénieur SOC/CERT chez Almond.",
-		"paragraph_two": "Lors de mon stage de fin d'études, j'ai travaillé sur la notion de Deceptive defence: création de leurres de detection dans un périmètre informatique. Dans le même temps, je développais mes compétences d'analyste SOC.",
-		"paragraph_three": "Je suis passionné par l'espace et les notions de cybersécurité qui sont liées à ce milieu. De plus sur mon temps libre, je m'exerce à l'OSINT ainsi que le Pentest. Mon objectif est de réussir à developper les notions de cybersécurité dans ce milieu qui passent parfois au second plan.",
+		"paragraph_one": "Former student Efrei Paris, I am currently on permanent contracts as an engineer SOC/CERT at Almond.",
+		"paragraph_two": "During my end -of -studies internship, I worked on the concept of defense: creation of detection lures in a computer scope.At the same time, I developed my skills as an SOC analyst.",
+		"paragraph_three": "I am passionate about space and the notions of cybersecurity that are linked to this environment.In addition in my free time, I exercise at the Osint as well as the Pentest.My goal is to succeed in developing the notions of cybersecurity in this environment which sometimes pass in the background.",
 		"github_card": {
 			"followers": "followers",
 			"following": "following",
@@ -51,30 +51,30 @@
 		"alt_dev_img": "Enzo Morin"
 	},
 	"portifolioPage": {
-		"title": "PROJETS",
-		"labelFilter": "TOUS",
-		"createdLabel": "Créé le"
+		"title": "PROJECTS",
+		"labelFilter": "ALL",
+		"createdLabel": "Created the"
 	},
 	"experiencePage": {
 		"title": "EXPERIENCES",
 		"timeline": {
 			"template":{
 				"labelPosition": "Position",
-				"labelTitle": "Intitulé",
-				"labelCompany": "Entreprise",
-				"labelCategory": "Catégorie",
+				"labelTitle": "Title",
+				"labelCompany": "Campany",
+				"labelCategory": "Category",
 				"labelInstitution": "Institution",
 				"labelProfessionalCourse": "Status",
-				"labelBachelorDegree": "Etudes",
-				"labelExtensionCourse": "Autre",
-				"labelYear":"Années"
+				"labelBachelorDegree": "Studies",
+				"labelExtensionCourse": "Other",
+				"labelYear":"Years"
 			},
 			"jobs":{
 				"study1":{
 					"labelPosition": "",
-					"labelTitle": "Etudiant",
+					"labelTitle": "Student",
 					"labelCompany": "Lycée Alain René Lesage",
-					"labelCategory": "Classes préparatoires",
+					"labelCategory": "Preparatory classes",
 					"labelInstitution": "",
 					"labelProfessionalCourse": "",
 					"labelBachelorDegree": "Bac +2",
@@ -83,29 +83,29 @@
 				},
 				"study2":{
 					"labelPosition": "",
-					"labelTitle": "Etudiant",
+					"labelTitle": "Student",
 					"labelCompany": "EFREI Paris",
-					"labelCategory": "Ecole d'ingénieur",
+					"labelCategory": "Engineer school",
 					"labelInstitution": "",
 					"labelProfessionalCourse": "",
-					"labelBachelorDegree": "Bac + 5",
+					"labelBachelorDegree": "Bac +5",
 					"labelExtensionCourse": "",
 					"labelYear":"2020-2023"
 				},
 				"job1":{
-					"labelPosition": "Stagiaire",
-					"labelTitle": "Intitulé",
+					"labelPosition": "Trainee",
+					"labelTitle": "",
 					"labelCompany": "Castelis",
 					"labelCategory": "SOC & Managed Services",
 					"labelInstitution": "",
 					"labelProfessionalCourse": "",
-					"labelBachelorDegree": "Stage M1",
+					"labelBachelorDegree": "M1 Internship",
 					"labelExtensionCourse": "",
 					"labelYear":"2021-2022"
 				},
 				"job2":{
-					"labelPosition": "Equipe CWatch",
-					"labelTitle": "Analyste SOC/CERT",
+					"labelPosition": "CWatch Team",
+					"labelTitle": "SOC/CERT Analyst",
 					"labelCompany": "Almond",
 					"labelCategory": "SOC/CERT",
 					"labelInstitution": "",
@@ -121,17 +121,17 @@
 	"footer": {
 		"labelNavigation": {
 			"title": "Navigation",
-			"labelHome": "Menu principal",
-			"labelServices": "Mes domaines",
+			"labelHome": "Menu",
+			"labelServices": "Mes topics",
 			"labelAboutMe": "Whoami",
-			"labelPortifolio": "Projets",
-			"labelExperience": "Expériences"
+			"labelPortifolio": "Projects",
+			"labelExperience": "Experiences"
 		},
 		"labelHost": {
-			"title": "HEBERGEMENT"
+			"title": "HOSTING"
 		},
 		"labelSourceCode": {
-			"title": "CODE SOURCE"
+			"title": "SOURCE CODES"
 		},
 		"labelTechs": {
 			"title": "TECHNOLOGIES"
