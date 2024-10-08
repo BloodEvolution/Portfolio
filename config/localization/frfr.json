@@ -112,7 +112,18 @@
 					"labelProfessionalCourse": "",
 					"labelBachelorDegree": "Bac +5",
 					"labelExtensionCourse": "",
-					"labelYear":"2023-"
+					"labelYear":"Mars 2023 - Décembre 2023"
+				},
+				"job3":{
+					"labelPosition": "Equipe CWatch",
+					"labelTitle": "CWatch Production Engineer",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear":"Janvier 2024 - Aujourd'hui"
 				}
 			}
 			

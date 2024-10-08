@@ -321,7 +321,7 @@ export default function AProposDeMoi(props) {
 							<p>{language.aboutMePage.paragraph_three}</p>
 							<div className="tech-and-cv">
 								<SocialNetworkRowStack />
-								<ButtonCV onClick="alert('Not Available Yet')" target="_blank" data-splitbee-event="Download CV">
+								<ButtonCV href="https://cdn.discordapp.com/attachments/978963681654222870/1293277120352489512/CV_ENZO_Morin_2024.pdf?ex=6706c9ad&is=6705782d&hm=6f57d42f164d6070a2bf06c0f1901c1e383e3741430fcf43e13171320f4d55af&" target="_blank" data-splitbee-event="Download CV">
 									Download CV
 								</ButtonCV>
 							</div>
