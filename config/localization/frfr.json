@@ -1,0 +1,164 @@
+{
+	"id": "frfr",
+	"navbarMenu": {
+		"labelHome": "MENU PRINCIPAL",
+		"labelServices": "MES DOMAINES",
+		"labelAboutMe": "WHOAMI",
+		"labelPortifolio": "PROJETS",
+		"labelExperience": "EXPERIENCES"
+	},
+	"landingPage": {
+		"apresentationText": "Hello World,",
+		"typeText": "Enzo 'BloodEvo' Morin",
+		"resumeText": "Fasciné par l'informatique et par ses enjeux sécuritaires, je travaille dans la cybersécurité en tant qu'analyste CERT (réponse à incident & audit cyber). Créatif et persévérant, j'aime relever les défis en équipe pour répondre aux enjeux actuels en termes de sécurité informatique.",
+		"buttonText": "A propos de moi"
+	},
+	"servicesOffer": {
+		"title": "Mes domaines",
+		"cards": {
+			"forensique": {
+				"title": "SOC / CERT",
+				"contentText": "Travail dans un SOC/CERT tierless, traitant les incidents de bout en bout, de la détection à la réponse et la remédiation avec le client."
+			},
+			"devsecops": {
+				"title": "DFIR",
+				"contentText": "Forensic et réponse à incident : investigation, collecte et analyse de preuves (Dissect, Velociraptor, FTK Imager) pour contenir et remédier aux cyberattaques."
+			},
+			"pentesting": {
+				"title": "Threat Intel & OSINT",
+				"contentText": "Threat hunting et OSINT : suivi des modes opératoires (TTP) et pratique de l'offensif sur des plateformes comme HTB ou RootMe, pour mieux identifier et corriger les vulnérabilités."
+			},
+			"developpement": {
+				"title": "Développement & Automatisation",
+				"contentText": "Scripting et automatisation en Python, PowerShell et Bash. Utilisation avancée de Git/GitHub pour la gestion de versions et la collaboration sur des projets personnels et professionnels."
+			},
+			"infrastructure": {
+				"title": "Infrastructure & Cloud",
+				"contentText": "Conception et maintien en condition opérationnelle (MCO/MCS) d'infrastructures sécurisées et d'environnements cloud (AWS, OVH, Scaleway)."
+			}
+		}
+	},
+	"aboutMePage": {
+		"title": "WHOAMI",
+		"paragraph_one": "Diplômé en ingénierie cybersécurité de l'EFREI Paris, je suis actuellement analyste CERT (réponse à incident & audit cyber) chez Dattak, après deux ans comme analyste SOC/CERT et production engineer chez Almond.",
+		"paragraph_two": "Lors de mon stage de fin d'études, j'ai travaillé sur la notion de Deceptive defence : création de leurres de détection dans un périmètre informatique. En parallèle, je développais mes compétences d'analyste SOC.",
+		"paragraph_three": "Je suis passionné par l'espace et les notions de cybersécurité liées à ce milieu. Sur mon temps libre, je m'exerce à l'OSINT ainsi qu'au Pentest. Mon objectif est de développer les notions de cybersécurité dans ce milieu où elles passent parfois au second plan.",
+		"cvLabel": "Télécharger le CV",
+		"cvUrl": "https://canva.link/e5rlmjkej79euna",
+		"github_card": {
+			"followers": "followers",
+			"following": "following",
+			"repos": "repos"
+		},
+		"alt_dev_img": "Enzo Morin"
+	},
+	"portifolioPage": {
+		"title": "PROJETS",
+		"labelFilter": "TOUS",
+		"createdLabel": "Créé le"
+	},
+	"experiencePage": {
+		"title": "EXPERIENCES",
+		"timeline": {
+			"template": {
+				"labelPosition": "Poste",
+				"labelTitle": "Intitulé",
+				"labelCompany": "Entreprise",
+				"labelCategory": "Catégorie",
+				"labelInstitution": "Institution",
+				"labelProfessionalCourse": "Status",
+				"labelBachelorDegree": "Etudes",
+				"labelExtensionCourse": "Autre",
+				"labelYear": "Années"
+			},
+			"jobs": {
+				"study1": {
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
+					"labelCompany": "Lycée Alain René Lesage",
+					"labelCategory": "Classes préparatoires",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +2",
+					"labelExtensionCourse": "",
+					"labelYear": "2018-2020"
+				},
+				"study2": {
+					"labelPosition": "",
+					"labelTitle": "Etudiant",
+					"labelCompany": "EFREI Paris",
+					"labelCategory": "Ecole d'ingénieur",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "2020-2023"
+				},
+				"job1": {
+					"labelPosition": "Stagiaire",
+					"labelTitle": "",
+					"labelCompany": "Castelis",
+					"labelCategory": "SOC & Managed Services",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Stage M1",
+					"labelExtensionCourse": "",
+					"labelYear": "2021-2022"
+				},
+				"job2": {
+					"labelPosition": "Equipe CWatch",
+					"labelTitle": "Analyste SOC/CERT",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "Mars 2023 - Décembre 2023"
+				},
+				"job3": {
+					"labelPosition": "Equipe CWatch",
+					"labelTitle": "CWatch Production Engineer",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "Janvier 2024 - Mars 2025"
+				},
+				"job4": {
+					"labelPosition": "CERT",
+					"labelTitle": "Analyste CERT & Audit Cyber",
+					"labelCompany": "Dattak",
+					"labelCategory": "CERT / DFIR",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "Mars 2025 - Aujourd'hui"
+				}
+			}
+		}
+	},
+	"footer": {
+		"labelNavigation": {
+			"title": "Navigation",
+			"labelHome": "Menu principal",
+			"labelServices": "Mes domaines",
+			"labelAboutMe": "Whoami",
+			"labelPortifolio": "Projets",
+			"labelExperience": "Expériences"
+		},
+		"labelHost": {
+			"title": "HEBERGEMENT"
+		},
+		"labelSourceCode": {
+			"title": "CODE SOURCE"
+		},
+		"labelTechs": {
+			"title": "TECHNOLOGIES"
+		},
+		"labelBuildVersion": "Version"
+	}
+}
