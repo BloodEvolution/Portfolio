@@ -1,0 +1,164 @@
+{
+	"id": "frfr",
+	"navbarMenu": {
+		"labelHome": "Home",
+		"labelServices": "My topics",
+		"labelAboutMe": "WHOAMI",
+		"labelPortifolio": "PROJECTS",
+		"labelExperience": "EXPERIENCES"
+	},
+	"landingPage": {
+		"apresentationText": "Hello World,",
+		"typeText": "Enzo 'BloodEvo' Morin",
+		"resumeText": "Passionate about IT and its security challenges, I work in cybersecurity as a CERT analyst. Creative and persevering, I enjoy taking on team challenges to tackle today's information-security issues.",
+		"buttonText": "About me"
+	},
+	"servicesOffer": {
+		"title": "My topics",
+		"cards": {
+			"forensique": {
+				"title": "SOC / CERT",
+				"contentText": "Working in a tierless SOC/CERT, handling incidents end to end, from detection to response and remediation alongside the client."
+			},
+			"devsecops": {
+				"title": "DFIR",
+				"contentText": "Digital forensics and incident response: scoping, evidence collection and analysis (Dissect, Velociraptor, FTK Imager) to contain and remediate cyberattacks."
+			},
+			"pentesting": {
+				"title": "Threat Intel & OSINT",
+				"contentText": "Threat hunting and OSINT: tracking adversary TTPs and practising offensive techniques on platforms such as HTB and RootMe, to better identify and fix vulnerabilities."
+			},
+			"developpement": {
+				"title": "Development & Automation",
+				"contentText": "Scripting and automation in Python, PowerShell and Bash. Advanced use of Git/GitHub for version control and collaboration on personal and professional projects."
+			},
+			"infrastructure": {
+				"title": "Infrastructure & Cloud",
+				"contentText": "Design and operational maintenance (MCO/MCS) of secured infrastructure and cloud environments (AWS, OVH, Scaleway)."
+			}
+		}
+	},
+	"aboutMePage": {
+		"title": "WHOAMI",
+		"paragraph_one": "A cybersecurity engineering graduate from EFREI Paris, I currently work as a CERT analyst (Incident Response & Cyber Audit) at Dattak, after two years as a SOC/CERT analyst and production engineer at Almond.",
+		"paragraph_two": "During my end-of-studies internship I worked on deceptive defense: building detection lures within an information system, while developing my skills as a SOC analyst.",
+		"paragraph_three": "I'm passionate about space and the cybersecurity challenges tied to that environment. In my free time I practise OSINT and pentesting. My goal is to help advance cybersecurity in the space domain, where it too often takes a back seat.",
+		"cvLabel": "Download CV",
+		"cvUrl": "https://canva.link/alvircaoqkmx2rm",
+		"github_card": {
+			"followers": "followers",
+			"following": "following",
+			"repos": "repos"
+		},
+		"alt_dev_img": "Enzo Morin"
+	},
+	"portifolioPage": {
+		"title": "PROJECTS",
+		"labelFilter": "ALL",
+		"createdLabel": "Created the"
+	},
+	"experiencePage": {
+		"title": "EXPERIENCES",
+		"timeline": {
+			"template": {
+				"labelPosition": "Position",
+				"labelTitle": "Title",
+				"labelCompany": "Company",
+				"labelCategory": "Category",
+				"labelInstitution": "Institution",
+				"labelProfessionalCourse": "Status",
+				"labelBachelorDegree": "Studies",
+				"labelExtensionCourse": "Other",
+				"labelYear": "Years"
+			},
+			"jobs": {
+				"study1": {
+					"labelPosition": "",
+					"labelTitle": "Student",
+					"labelCompany": "Lycée Alain René Lesage",
+					"labelCategory": "Preparatory classes",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +2",
+					"labelExtensionCourse": "",
+					"labelYear": "2018-2020"
+				},
+				"study2": {
+					"labelPosition": "",
+					"labelTitle": "Student",
+					"labelCompany": "EFREI Paris",
+					"labelCategory": "Engineering school",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "2020-2023"
+				},
+				"job1": {
+					"labelPosition": "Trainee",
+					"labelTitle": "",
+					"labelCompany": "Castelis",
+					"labelCategory": "SOC & Managed Services",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "M1 Internship",
+					"labelExtensionCourse": "",
+					"labelYear": "2021-2022"
+				},
+				"job2": {
+					"labelPosition": "CWatch Team",
+					"labelTitle": "SOC/CERT Analyst",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "March 2023 - December 2023"
+				},
+				"job3": {
+					"labelPosition": "CWatch Team",
+					"labelTitle": "CWatch Production Engineer",
+					"labelCompany": "Almond",
+					"labelCategory": "SOC/CERT",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "January 2024 - March 2025"
+				},
+				"job4": {
+					"labelPosition": "CERT",
+					"labelTitle": "CERT Analyst & Cyber Audit",
+					"labelCompany": "Dattak",
+					"labelCategory": "CERT / DFIR",
+					"labelInstitution": "",
+					"labelProfessionalCourse": "",
+					"labelBachelorDegree": "Bac +5",
+					"labelExtensionCourse": "",
+					"labelYear": "March 2025 - Today"
+				}
+			}
+		}
+	},
+	"footer": {
+		"labelNavigation": {
+			"title": "Navigation",
+			"labelHome": "Menu",
+			"labelServices": "My topics",
+			"labelAboutMe": "Whoami",
+			"labelPortifolio": "Projects",
+			"labelExperience": "Experiences"
+		},
+		"labelHost": {
+			"title": "HOSTING"
+		},
+		"labelSourceCode": {
+			"title": "SOURCE CODES"
+		},
+		"labelTechs": {
+			"title": "TECHNOLOGIES"
+		},
+		"labelBuildVersion": "Version"
+	}
+}
