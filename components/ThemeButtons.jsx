@@ -40,31 +40,31 @@ const ButtonTheme = styled.div`
 `;
 
 const ButtonOrange = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonRed = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonPurple = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonGreen = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonLightBlue = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonDarkYellow = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 const ButtonLight = styled(ButtonTheme)`
-	border: 3px solid ${(props) => (props.selected ? "#fff" : "transparent")};
+	border: 3px solid ${(props) => (props.$selected ? "#fff" : "transparent")};
 `;
 
 export default function ThemeButtons() {
@@ -143,17 +143,17 @@ export default function ThemeButtons() {
 		<ThemeButtonsContainer>
 			<ButtonOrange
 				id="orange"
-				selected={selectedOrange}
+				$selected={selectedOrange}
 				style={{ background: "#fa8c05" }}
 				onClick={(e) => {
 					handleSelectTheme(e.target.id);
 				}}
 			/>
-			<ButtonRed id="red" selected={selectedRed} style={{ background: "#B33636" }} onClick={(e) => handleSelectTheme(e.target.id)} />
-			<ButtonPurple id="purple" selected={selectedPurple} style={{ background: "#72195A" }} onClick={(e) => handleSelectTheme(e.target.id)} />
-			<ButtonGreen id="green" selected={selectedGreen} style={{ background: "#00ff84" }} onClick={(e) => handleSelectTheme(e.target.id)} />
-			<ButtonLightBlue id="lightBlue" selected={selectedLightBlue} style={{ background: "#14e0d3" }} onClick={(e) => handleSelectTheme(e.target.id)} />
-			<ButtonDarkYellow id="darkYellow" selected={selectedDarkYellow} style={{ background: "#FCD434" }} onClick={(e) => handleSelectTheme(e.target.id)} />
+			<ButtonRed id="red" $selected={selectedRed} style={{ background: "#B33636" }} onClick={(e) => handleSelectTheme(e.target.id)} />
+			<ButtonPurple id="purple" $selected={selectedPurple} style={{ background: "#72195A" }} onClick={(e) => handleSelectTheme(e.target.id)} />
+			<ButtonGreen id="green" $selected={selectedGreen} style={{ background: "#00ff84" }} onClick={(e) => handleSelectTheme(e.target.id)} />
+			<ButtonLightBlue id="lightBlue" $selected={selectedLightBlue} style={{ background: "#14e0d3" }} onClick={(e) => handleSelectTheme(e.target.id)} />
+			<ButtonDarkYellow id="darkYellow" $selected={selectedDarkYellow} style={{ background: "#FCD434" }} onClick={(e) => handleSelectTheme(e.target.id)} />
 		</ThemeButtonsContainer>
 	);
 }

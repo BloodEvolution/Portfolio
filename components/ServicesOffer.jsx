@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 //Styled icons
 import { MagnifyingGlass } from "@styled-icons/entypo/MagnifyingGlass";
@@ -101,7 +101,7 @@ const SectionServices = styled.section`
 	padding-top: 60px;
 `;
 
-export default function _ServicesOffer() {
+export default function ServicesOffer() {
 	const { language } = useContext(SettingsContext);
 
 	return (

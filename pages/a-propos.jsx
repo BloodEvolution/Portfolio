@@ -6,7 +6,7 @@ import { SettingsContext } from "@/context/SettingsContext";
 //Third's librarys
 import styled from "styled-components";
 import Image from "next/image";
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 //Custom components
 import SocialNetworkRowStack from "@/components/SocialNetworkRowStack";
@@ -285,7 +285,7 @@ export default function AProposDeMoi(props) {
 							<GithubStatsCard>
 								<div className="background" />
 								<div className="img">
-									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} layout="fill" objectFit="cover" className="image-rounded" />
+									<Image src="/img/user-photo.jpg" alt={language.aboutMePage.alt_dev_img} fill sizes="140px" style={{ objectFit: "cover" }} className="image-rounded" />
 								</div>
 								<div className="content">
 									<h3>{githubUserData?.name}</h3>
@@ -293,7 +293,7 @@ export default function AProposDeMoi(props) {
 										@{githubUserData?.login}
 									</a>
 									{githubUserData?.bio?.split("|").map((line, index) => (
-										<p>{line}</p>
+										<p key={index}>{line}</p>
 									))}
 									<div className="github-stats">
 										<div className="stats">

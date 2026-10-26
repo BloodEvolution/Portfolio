@@ -1,3 +1,12 @@
-node_modules
-.next
+.git
+.github
 .vscode
+.next
+out
+node_modules
+npm-debug.log*
+.env*
+*.md
+*.tar
+Dockerfile*
+.dockerignore

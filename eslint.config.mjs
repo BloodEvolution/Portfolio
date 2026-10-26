@@ -1,0 +1,12 @@
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextCoreWebVitals from "eslint-config-next/core-web-vitals";
+
+export default defineConfig([
+	globalIgnores([".next/**", "out/**", "node_modules/**"]),
+	{
+		extends: [...nextCoreWebVitals],
+		rules: {
+			"react/no-unescaped-entities": 0,
+		},
+	},
+]);

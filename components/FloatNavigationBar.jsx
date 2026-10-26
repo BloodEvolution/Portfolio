@@ -43,7 +43,7 @@ const NavOption = styled.div`
 	transition: all 0.5s ease;
 	padding: 5px;
 	border-radius: 50%;
-	border: 1px solid ${(props) => (props.isActive ? props.theme.colors.branding : "transparent")};
+	border: 1px solid ${(props) => (props.$isActive ? props.theme.colors.branding : "transparent")};
 
 	&:hover {
 		cursor: pointer;
@@ -51,7 +51,7 @@ const NavOption = styled.div`
 	svg {
 		width: 26px;
 		height: 26px;
-		color: ${(props) => (props.isActive ? props.theme.colors.branding : "#ccc")};
+		color: ${(props) => (props.$isActive ? props.theme.colors.branding : "#ccc")};
 	}
 `;
 
@@ -63,7 +63,7 @@ export default function FloatNavigationBar(props) {
 			<a style={{ textDecoration: "none" }} href="#section-home" onClick={scrollToSection}>
 				<NavOption
 					className="button"
-					isActive={active == "#section-home" ? true : false}
+					$isActive={active == "#section-home" ? true : false}
 					onClick={() => {
 						setActive("#section-home");
 					}}>
@@ -73,7 +73,7 @@ export default function FloatNavigationBar(props) {
 			<a style={{ textDecoration: "none" }} href="#section-services" onClick={scrollToSection}>
 				<NavOption
 					className="button"
-					isActive={active == "#section-services" ? true : false}
+					$isActive={active == "#section-services" ? true : false}
 					onClick={() => {
 						setActive("#section-services");
 					}}>
@@ -83,7 +83,7 @@ export default function FloatNavigationBar(props) {
 			<a style={{ textDecoration: "none" }} href="#section-a-propos" onClick={scrollToSection}>
 				<NavOption
 					className="button"
-					isActive={active == "#section-a-propos" ? true : false}
+					$isActive={active == "#section-a-propos" ? true : false}
 					onClick={() => {
 						setActive("#section-a-propos");
 					}}>
@@ -93,7 +93,7 @@ export default function FloatNavigationBar(props) {
 			<a style={{ textDecoration: "none" }} href="#section-portifolio" onClick={scrollToSection}>
 				<NavOption
 					className="button"
-					isActive={active == "#section-portifolio" ? true : false}
+					$isActive={active == "#section-portifolio" ? true : false}
 					onClick={() => {
 						setActive("#section-portifolio");
 					}}>
@@ -104,7 +104,7 @@ export default function FloatNavigationBar(props) {
 			<a style={{ textDecoration: "none" }} href="#section-experiencia" onClick={scrollToSection}>
 				<NavOption
 					className="button"
-					isActive={active == "#section-experiencia" ? true : false}
+					$isActive={active == "#section-experiencia" ? true : false}
 					onClick={() => {
 						setActive("#section-experiencia");
 					}}>

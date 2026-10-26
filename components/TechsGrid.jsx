@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 //Contexto
 

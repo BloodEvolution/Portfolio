@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import styled from "styled-components";
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 //Contexto
 import { SettingsContext } from "@/context/SettingsContext";
@@ -231,19 +231,18 @@ export default function FooterPage(props) {
 	const [commit, setCommit] = useState("");
 
 	useEffect(() => {
+		async function getLastCommit() {
+			const response = await fetch("https://api.github.com/repos/0xtter/Portfolio/commits");
+			const json = await response.json();
+			try {
+				setCommit(json[0].sha.slice(0, 6));
+			} catch (error) {
+				console.error(error);
+				setCommit("Error Loading...");
+			}
+		}
 		getLastCommit();
 	}, []);
-
-	async function getLastCommit() {
-		const response = await fetch("https://api.github.com/repos/0xtter/Portfolio/commits");
-		const json = await response.json();
-		try {
-			setCommit(json[0].sha.slice(0, 6));
-		} catch (error) {
-			console.error(error);
-			setCommit("Error Loading...");
-		}
-	}
 
 
 	const goToTop = () => {

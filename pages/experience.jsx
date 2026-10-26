@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 import { useState } from 'react';
 import styled from "styled-components";
 
-//Custom components
-import TimelineExperienciaFormacao from "@/components/TimelineExperienciaFormacao";
 import { useTheme } from "styled-components";
 
 //Contexto
@@ -51,7 +49,6 @@ export default function Experiencia() {
 					<br></br>
 				</ul>
 			))}
-			{/* <TimelineExperienciaFormacao /> */}
 		</SectionExperiencia >
 	);
 }

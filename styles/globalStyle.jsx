@@ -40,6 +40,36 @@ html, body, :root {
   ::-webkit-scrollbar-thumb:hover {
     opacity: 0.8;
     cursor: pointer;
-  }  
+  }
+
+  /* Animations d'apparition (ex-animate.css 3.5.2 et react-reveal), voir components/ScrollAnimation.jsx et components/Fade.jsx */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes revealFade {
+    from { opacity: 0; }
+    to { opacity: 1; transform: none; }
+  }
+
+  @keyframes revealFromTop {
+    from { opacity: 0; transform: translate3d(0, -100%, 0); }
+    to { opacity: 1; transform: none; }
+  }
+
+  @keyframes revealFromLeft {
+    from { opacity: 0; transform: translate3d(-100%, 0, 0); }
+    to { opacity: 1; transform: none; }
+  }
 `;
 export default GlobalStyle;

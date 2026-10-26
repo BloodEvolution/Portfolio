@@ -19,7 +19,7 @@ const ProgressBar = styled.div`
 
 	.progress-line {
 		background-color: ${(props) => props.theme.colors.branding};
-		width: ${(props) => props.percent}%;
+		width: ${(props) => props.$percent}%;
 		height: 100%;
 		border-radius: 20px;
 	}
@@ -57,10 +57,10 @@ export default function ProgressBarTech(props) {
 	return (
 		<WrapperProgressBar>
 			<TechText>{props.techName}</TechText>
-			<ProgressBar percent={props.percent}>
+			<ProgressBar $percent={props.$percent}>
 				<div className="progress-line" />
 			</ProgressBar>
-			<PercentText>{props.percent}%</PercentText>
+			<PercentText>{props.$percent}%</PercentText>
 		</WrapperProgressBar>
 	);
 }

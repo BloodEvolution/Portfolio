@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import Lottie from "react-lottie";
+import Lottie from "@/components/Lottie";
 import { useTheme } from "styled-components";
 
 //Lotties
@@ -46,23 +46,16 @@ const AnimationsToShow = {
 	light: AnimationLightBackground,
 };
 
+const rendererSettings = {
+	preserveAspectRatio: "xMidYMid slice",
+};
+
 export default function LogoReact() {
 	const theme = useTheme();
-	const [isStopped] = useState(false);
-	const [isPaused] = useState(false);
-
-	var defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: AnimationsToShow[theme.name],
-		rendererSettings: {
-			preserveAspectRatio: "xMidYMid slice",
-		},
-	};
 
 	return (
 		<ContainerLottie>
-			<Lottie options={defaultOptions} height={"100%"} width={"100%"} isStopped={isStopped} isPaused={isPaused} isClickToPauseDisabled={true} />
+			<Lottie animationData={AnimationsToShow[theme.name]} rendererSettings={rendererSettings} />
 		</ContainerLottie>
 	);
 }

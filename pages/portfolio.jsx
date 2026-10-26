@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
-import ScrollAnimation from "react-animate-on-scroll";
+import ScrollAnimation from "@/components/ScrollAnimation";
 
 //Context
 import { SettingsContext } from "@/context/SettingsContext";
@@ -22,28 +22,27 @@ import { Nodejs } from "@styled-icons/boxicons-logos/Nodejs";
 import { Css3 } from "@styled-icons/boxicons-logos/Css3";
 import { Html5 } from "@styled-icons/boxicons-logos/Html5";
 import { Live } from "@styled-icons/fluentui-system-filled/Live";
-import { CPlusPlus } from "@styled-icons/boxicons-logos";
-import { FileBinary } from "@styled-icons/bootstrap";
-import { Vuejs } from "@styled-icons/boxicons-logos";
-import { Markdown } from "@styled-icons/boxicons-logos";
-import { BookmarkFill } from "@styled-icons/bootstrap";
-import { Github } from "@styled-icons/boxicons-logos";
-import { MathFormatLinear } from "@styled-icons/fluentui-system-filled";
-import { DrawShape } from "@styled-icons/fluentui-system-filled";
-import { Gamepad } from "styled-icons/fa-solid";
+import { CPlusPlus } from "@styled-icons/boxicons-logos/CPlusPlus";
+import { FileBinary } from "@styled-icons/bootstrap/FileBinary";
+import { Vuejs } from "@styled-icons/boxicons-logos/Vuejs";
+import { Markdown } from "@styled-icons/boxicons-logos/Markdown";
+import { BookmarkFill } from "@styled-icons/bootstrap/BookmarkFill";
+import { Github } from "@styled-icons/boxicons-logos/Github";
+import { MathFormatLinear } from "@styled-icons/fluentui-system-filled/MathFormatLinear";
+import { DrawShape } from "@styled-icons/fluentui-system-filled/DrawShape";
+import { Gamepad } from "@styled-icons/fa-solid/Gamepad";
 import { Password } from "@styled-icons/fluentui-system-filled/Password";
-import { ShieldLockFill } from "@styled-icons/bootstrap";
-import { TrophyFill } from "@styled-icons/bootstrap";
-import { C } from "@styled-icons/simple-icons";
-import { Box } from "@styled-icons/bootstrap";
-import { DesignIdeas } from "@styled-icons/fluentui-system-filled";
-import { JournalBookmark } from "@styled-icons/bootstrap";
-import { Arduino } from "@styled-icons/simple-icons";
+import { ShieldLockFill } from "@styled-icons/bootstrap/ShieldLockFill";
+import { TrophyFill } from "@styled-icons/bootstrap/TrophyFill";
+import { C } from "@styled-icons/simple-icons/C";
+import { Box } from "@styled-icons/bootstrap/Box";
+import { DesignIdeas } from "@styled-icons/fluentui-system-filled/DesignIdeas";
+import { JournalBookmark } from "@styled-icons/bootstrap/JournalBookmark";
+import { Arduino } from "@styled-icons/simple-icons/Arduino";
 
 //Custom components
 import Tooltip from "@/components/Tooltip";
 import FetchData from "@/components/RepositoryList";
-import { D } from "styled-icons/crypto";
 
 const ContainerGrid = styled.div`
 	display: grid;
@@ -81,7 +80,7 @@ const WrapperProjectCard = styled.div`
 		bottom: 10px;
 	}
 
-	:hover {
+	&:hover {
 		border: 1px solid ${(props) => props.theme.colors.branding};
 		transform: scale(1.01);
 		box-shadow: 0px 0px 20px 0px ${(props) => props.theme.colors.branding}5E;
@@ -233,9 +232,9 @@ function formatDate(dateString) {
 
 
 const Chip = styled.span`
-	color: ${(props) => (props.active == true ? props.theme.colors.backgroundSecondary : props.theme.colors.inactiveTitle)};
-	background-color: ${(props) => (props.active == true ? props.theme.colors.branding : props.theme.colors.backgroundSecondary)};
-	border: 1px solid ${(props) => (props.active == true ? props.theme.colors.branding : props.theme.colors.inactiveTitle)};
+	color: ${(props) => (props.$active == true ? props.theme.colors.backgroundSecondary : props.theme.colors.inactiveTitle)};
+	background-color: ${(props) => (props.$active == true ? props.theme.colors.branding : props.theme.colors.backgroundSecondary)};
+	border: 1px solid ${(props) => (props.$active == true ? props.theme.colors.branding : props.theme.colors.inactiveTitle)};
 	padding: 2px 7px 3px 7px;
 	margin: 3px;
 	border-radius: 4px;
@@ -435,7 +434,7 @@ export default function Portifolio() {
 					onClick={(event) => {
 						handleFilter(event.target.id);
 					}}
-					active={stack.includes("TODOS") ? true : false}>
+					$active={stack.includes("TODOS") ? true : false}>
 					{language.portifolioPage.labelFilter}
 				</Chip>
 
@@ -444,7 +443,7 @@ export default function Portifolio() {
 					onClick={(event) => {
 						handleFilter(event.target.id);
 					}}
-					active={stack.includes("BACKEND") ? true : false}>
+					$active={stack.includes("BACKEND") ? true : false}>
 					BACKEND
 				</Chip>
 				<Chip
@@ -452,7 +451,7 @@ export default function Portifolio() {
 					onClick={(event) => {
 						handleFilter(event.target.id);
 					}}
-					active={stack.includes("WEB") ? true : false}>
+					$active={stack.includes("WEB") ? true : false}>
 					WEB
 				</Chip>
 				<Chip
@@ -460,7 +459,7 @@ export default function Portifolio() {
 					onClick={(event) => {
 						handleFilter(event.target.id);
 					}}
-					active={stack.includes("MOBILE") ? true : false}>
+					$active={stack.includes("MOBILE") ? true : false}>
 					MOBILE
 				</Chip>
 			</ChipTechOptions> */}
@@ -468,7 +467,7 @@ export default function Portifolio() {
 			<ContainerTitleSection>
 				<TitleSection>{language.portifolioPage.title}</TitleSection>
 			</ContainerTitleSection>
-			<ContainerGrid view={view}>
+			<ContainerGrid $view={view}>
 				{data ? (
 					data.map((project, index) => (
 						<ScrollAnimation animateIn="fadeIn" animateOnce key={index}>

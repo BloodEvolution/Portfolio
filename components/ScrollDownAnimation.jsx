@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import styled from "styled-components";
 import { useTheme } from "styled-components";
-import Lottie from "react-lottie";
+import Lottie from "@/components/Lottie";
 
 import ScrollDownLottie from "@/public/lotties/scroll-down.json";
 import ScrollDownLottieLight from "@/public/lotties/scroll-down-light.json";
@@ -20,29 +20,17 @@ const ContainerLottie = styled.div`
 	}
 `;
 
+const rendererSettings = {
+	preserveAspectRatio: "xMidYMid slice",
+};
+
 export default function ScrollDownAnimation() {
 	const theme = useTheme();
-	const [isStopped] = useState(false);
-	const [isPaused] = useState(false);
-
-
-	const lottieRef = React.useRef();
-
-	var defaultOptions = {
-		loop: true,
-		autoplay: true,
-		animationData: theme.name == "dark" ? ScrollDownLottie : ScrollDownLottieLight,
-		rendererSettings: {
-			preserveAspectRatio: "xMidYMid slice",
-		},
-
-	};
-
 
 	return (
 		<ContainerLottie>
 			<a style={{ textDecoration: "none" }} href="#section-services" onClick={scrollToSection}>
-				<Lottie ref={lottieRef} style={{ pointerEvents: "none" }} options={defaultOptions} height={"100%"} width={"100%"} isStopped={isStopped} isPaused={isPaused} isClickToPauseDisabled={true} />
+				<Lottie style={{ pointerEvents: "none" }} animationData={theme.name == "dark" ? ScrollDownLottie : ScrollDownLottieLight} rendererSettings={rendererSettings} />
 			</a>
 		</ContainerLottie>
 	);

@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 
 //Third's librarys
 import styled from "styled-components";
-import Typed from "react-typed";
+import Typed from "@/components/Typed";
 import { useTheme } from "styled-components";
-import ProgressBar from "react-progressbar-on-scroll";
+import ProgressBar from "@/components/ScrollProgressBar";
 
 //Custom components
 import Head from "@/components/Head";
@@ -153,6 +153,8 @@ const SectionHomePage = styled.section`
 	min-height: 100vh;
 `;
 
+const typedStrings = ["Enzo Morin"];
+
 export default function HomePage() {
 	const theme = useTheme();
 	const { language } = useContext(SettingsContext);
@@ -170,7 +172,7 @@ export default function HomePage() {
 
 				<TitleLandingContainer>
 					<SubTitleLanding>{language.landingPage.apresentationText}</SubTitleLanding>
-					<Typed strings={["Enzo Morin"]} typeSpeed={80} className="type-string " />
+					<Typed strings={typedStrings} typeSpeed={80} className="type-string " />
 					<SubTitleLanding>{language.landingPage.resumeText}</SubTitleLanding>
 					<a href="#section-a-propos" onClick={scrollToSection}>
 						<ButtonSaibaMais>{language.landingPage.buttonText}</ButtonSaibaMais>
